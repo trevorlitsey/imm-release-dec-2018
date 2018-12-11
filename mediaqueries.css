@@ -1,0 +1,18 @@
+/* INDEX */
+@media screen and (max-width: 560px) {
+  .artist-names {
+    right: 20px;
+    font-size: 36px;
+    line-height: 48px;
+  }
+
+  #index-title {
+    position: fixed;
+    right: -50px;
+    height: 180px;
+  }
+
+  #jordan-headshot {
+    height: 400px;
+  }
+}

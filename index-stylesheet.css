@@ -1,30 +1,12 @@
-html,
 body {
-  margin: auto;
-
-  background: -webkit-linear-gradient(#3399ff, #ffff00);
-  background: -moz-linear-gradient(#3399ff, #ffff00);
-  background: -o-linear-gradient(#3399ff, #ffff00);
-  background: -ms-linear-gradient(#3399ff, #ffff00);
-  background: linear-gradient(#3399ff, #ffff00);
-
+  min-height: 100vh;
   background: rgb(255, 255, 0);
-  background: -moz-linear-gradient(
-    left,
-    rgba(255, 255, 0, 1) 0%,
-    rgba(51, 153, 255, 1) 100%
-  );
-  background: -webkit-linear-gradient(
-    left,
-    rgba(255, 255, 0, 1) 0%,
-    rgba(51, 153, 255, 1) 100%
-  );
+  background: linear-gradient(#39f, #ff0);
   background: linear-gradient(
     to right,
     rgba(255, 255, 0, 1) 0%,
     rgba(51, 153, 255, 1) 100%
   );
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffff00', endColorstr='#3399ff',GradientType=1 );
 }
 
 #chatroom {
@@ -54,9 +36,7 @@ body {
   height: 250px;
   width: auto;
   z-index: 2;
-  -webkit-animation-fill-mode: both;
   animation-fill-mode: both;
-  -webkit-animation-name: fadeIn;
   animation-name: fadeIn;
 }
 
@@ -145,37 +125,21 @@ body {
 
 @-webkit-keyframes rotating /* Safari and Chrome */ {
   from {
-    -webkit-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
     transform: rotate(0deg);
   }
   to {
-    -webkit-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
     transform: rotate(360deg);
   }
 }
 @keyframes rotating {
   from {
-    -ms-transform: rotate(0deg);
-    -moz-transform: rotate(0deg);
-    -webkit-transform: rotate(0deg);
-    -o-transform: rotate(0deg);
     transform: rotate(0deg);
   }
   to {
-    -ms-transform: rotate(360deg);
-    -moz-transform: rotate(360deg);
-    -webkit-transform: rotate(360deg);
-    -o-transform: rotate(360deg);
     transform: rotate(360deg);
   }
 }
 .rotating {
-  -webkit-animation: rotating 4s linear infinite;
-  -moz-animation: rotating 4s linear infinite;
-  -ms-animation: rotating 4s linear infinite;
-  -o-animation: rotating 4s linear infinite;
   animation: rotating 4s linear infinite;
 }
 
@@ -216,9 +180,19 @@ a:active {
   text-decoration: none;
 }
 
+<<<<<<< HEAD
 .grow {
   transition: all 0.2s ease-in-out;
 }
 .grow:hover {
   transform: scale(1.1);
+=======
+#slime {
+  position: absolute;
+  z-index: -2;
+  top: 20px;
+  right: 0;
+  width: 600px;
+  height: auto;
+>>>>>>> trevor/edits
 }
