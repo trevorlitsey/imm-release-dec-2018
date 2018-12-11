@@ -1,0 +1,47 @@
+.buttons {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 35%;
+}
+
+#info-button {
+  display: inline;
+  margin: auto;
+  width: 75px;
+  height: auto;
+  bottom: 0;
+}
+
+#insta-button {
+  display: inline;
+  margin: auto;
+  width: 75px;
+  height: auto;
+  bottom: 0;
+}
+
+#facebook-button {
+  display: inline;
+  margin: auto;
+  width: 75px;
+  height: auto;
+  bottom: 0;
+}
+
+#mail-button {
+  display: inline;
+  margin: auto;
+  width: 75px;
+  height: auto;
+  bottom: 0;
+}
+
+#slime {
+  position: fixed;
+  z-index: -2;
+  top: 20px;
+  right: 0;
+  width: 600px;
+  height: auto;
+}
