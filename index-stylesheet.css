@@ -180,13 +180,13 @@ a:active {
   text-decoration: none;
 }
 
-<<<<<<< HEAD
 .grow {
   transition: all 0.2s ease-in-out;
 }
 .grow:hover {
   transform: scale(1.1);
-=======
+}
+
 #slime {
   position: absolute;
   z-index: -2;
@@ -194,5 +194,4 @@ a:active {
   right: 0;
   width: 600px;
   height: auto;
->>>>>>> trevor/edits
 }
