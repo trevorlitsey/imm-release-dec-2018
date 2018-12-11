@@ -1,0 +1,24 @@
+{
+  "name": "imm-release-dec-2018",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "parcel *.html",
+    "build": "parcel build *.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trevorlitsey/imm-release-dec-2018.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/trevorlitsey/imm-release-dec-2018/issues"
+  },
+  "homepage": "https://github.com/trevorlitsey/imm-release-dec-2018#readme",
+  "dependencies": {
+    "parcel-bundler": "^1.10.3"
+  }
+}
