@@ -35,7 +35,7 @@ body {
   right: 20px;
   height: 250px;
   width: auto;
-  z-index: 2;
+  z-index: 0;
   animation-fill-mode: both;
   animation-name: fadeIn;
 }
@@ -64,7 +64,7 @@ body {
   color: #ffff00;
   right: 100px;
   top: 300px;
-  z-index: 2;
+  z-index: 1;
   text-align: right;
   text-shadow: 0 0 25px rgb(205, 5, 255), 2px 2px #ff0000;
 }
@@ -194,4 +194,160 @@ a:active {
   right: 0;
   width: 600px;
   height: auto;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+  z-index: 1;
+}
+
+.popup {
+  margin: 70px auto;
+  bottom: 10%;
+  padding: 20px;
+  background: rgb(255, 238, 0);
+  border-radius: 5px;
+  width: 80%;
+  height: 100%;
+  overflow: scroll;
+  position: relative;
+  transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+  margin-top: 0;
+  color: #333;
+  font-family: Tahoma, Arial, sans-serif;
+}
+.popup .close {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  transition: all 200ms;
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+}
+
+.popup .content {
+  max-height: 80%;
+  overflow: auto;
+}
+
+@media screen and (max-width: 700px) {
+  .box {
+    width: 70%;
+  }
+  .popup {
+    width: 70%;
+  }
+}
+
+.mouse-animate {
+  position: fixed;
+  width: 200px;
+  height: auto;
+  animation-name: running-mouse;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes running-mouse {
+  0% {
+    left: -200px;
+    top: 0px;
+  }
+  5% {
+    left: 1000px;
+    top: 10px;
+  }
+  10% {
+    left: 1000px;
+    top: 200px;
+  }
+  15% {
+    left: 500px;
+    top: 5000px;
+  }
+  20% {
+    right: -200px;
+    top: 4500px;
+  }
+  25% {
+    right: 300px;
+    top: 2500px;
+  }
+  30% {
+    right: 1000px;
+    top: 100px;
+  }
+  35% {
+    left: 200px;
+    top: 200px;
+  }
+  40% {
+    left: 2200px;
+    top: 1200px;
+  }
+  45% {
+    left: 1200px;
+    top: 500px;
+  }
+  50% {
+    left: 500px;
+    top: 1200px;
+  }
+  55% {
+    left: 200px;
+    top: 500px;
+  }
+  60% {
+    left: 1300px;
+    top: 1300px;
+  }
+  65% {
+    left: 500px;
+    top: 500px;
+  }
+  70% {
+    left: 700px;
+    top: 700px;
+  }
+  75% {
+    left: 900px;
+    top: 1000px;
+  }
+  80% {
+    left: 1000px;
+    top: 500px;
+  }
+  85% {
+    left: 500px;
+    top: 500px;
+  }
+  90% {
+    left: 1000px;
+    top: 1000px;
+  }
+  95% {
+    left: 1200px;
+    top: 800px;
+  }
+  100% {
+    left: -200px;
+    top: 0px;
+  }
 }

@@ -1,0 +1,12 @@
+#logo {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  width: 150px;
+}
+
+#logo:hover {
+  cursor: default;
+  transform: rotate(1080deg);
+  transition: ease-in 0s, ease-out 1s;
+}

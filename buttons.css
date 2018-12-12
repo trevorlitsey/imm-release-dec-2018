@@ -7,7 +7,7 @@
   align-items: center;
 }
 
-.buttons > img {
+.buttons img {
   width: 75px;
   cursor: pointer;
 }

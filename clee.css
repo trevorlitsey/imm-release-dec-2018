@@ -1,0 +1,155 @@
+body {
+  background: rgb(0, 251, 255);
+  background: -moz-radial-gradient(
+    circle,
+    rgba(0, 251, 255, 0.614781746031746) 0%,
+    rgba(255, 254, 0, 1) 100%
+  );
+  background: -webkit-radial-gradient(
+    circle,
+    rgba(0, 251, 255, 0.614781746031746) 0%,
+    rgba(255, 254, 0, 1) 100%
+  );
+  background: radial-gradient(
+    circle,
+    rgba(0, 251, 255, 0.614781746031746) 0%,
+    rgba(255, 254, 0, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00fbff",endColorstr="#fffe00",GradientType=1);
+}
+
+#logo {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  width: 150px;
+}
+
+#logo:hover {
+  cursor: default;
+  transform: rotate(1080deg);
+  transition: ease-in 0s, ease-out 1s;
+}
+
+#clee-header {
+  display: block;
+  margin: auto;
+  width: 600px;
+  top: 0;
+}
+
+#clock-1 {
+  position: fixed;
+  width: 250px;
+  height: auto;
+}
+
+#clock-2 {
+  position: fixed;
+  width: 250px;
+  height: auto;
+}
+
+#clock-3 {
+  position: fixed;
+  width: 250px;
+  height: auto;
+}
+
+#clock-4 {
+  position: fixed;
+  width: 250px;
+  height: auto;
+}
+
+#clock-5 {
+  position: fixed;
+  width: 250px;
+  height: auto;
+}
+
+#clock-6 {
+  position: fixed;
+  width: 250px;
+  height: auto;
+}
+
+#clock-7 {
+  position: fixed;
+  width: 250px;
+  height: auto;
+}
+
+#clock-8 {
+  position: fixed;
+  width: 250px;
+  height: auto;
+}
+
+#clock-9 {
+  position: fixed;
+  width: 250px;
+  height: auto;
+}
+
+#clock-10 {
+  position: fixed;
+  width: 250px;
+  height: auto;
+}
+
+#clock-11 {
+  position: fixed;
+  width: 250px;
+  height: auto;
+}
+
+#clock-12 {
+  position: fixed;
+  width: 250px;
+  height: auto;
+}
+
+#clock-13 {
+  position: fixed;
+  width: 250px;
+  height: auto;
+}
+
+#clock-14 {
+  position: fixed;
+  width: 250px;
+  height: auto;
+}
+
+#clock-15 {
+  position: fixed;
+  width: 250px;
+  height: auto;
+}
+
+#clock-16 {
+  position: fixed;
+  width: 250px;
+  height: auto;
+}
+
+@-webkit-keyframes rotating /* Safari and Chrome */ {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotating {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.rotating {
+  animation: rotating 4s linear infinite;
+}
