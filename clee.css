@@ -42,72 +42,97 @@ body {
   position: fixed;
   width: 250px;
   height: auto;
+  top: -100px;
+  left: -100px;
+  z-index: -1;
 }
 
 #clock-2 {
   position: fixed;
   width: 250px;
   height: auto;
+  top: 200px;
 }
 
 #clock-3 {
   position: fixed;
   width: 250px;
   height: auto;
+  top: 400px;
+  right: -50px;
 }
 
 #clock-4 {
   position: fixed;
   width: 250px;
   height: auto;
+  top: 50px;
+  left: 100px;
+  z-index: -1;
 }
 
 #clock-5 {
   position: fixed;
   width: 250px;
   height: auto;
+  top: 500px;
+  left: 20px;
 }
 
 #clock-6 {
   position: fixed;
   width: 250px;
   height: auto;
+  top: 75px;
+  right: 0;
 }
 
 #clock-7 {
   position: fixed;
   width: 250px;
   height: auto;
+  top: 200px;
+  right: 20px;
+  z-index: -2;
 }
 
 #clock-8 {
   position: fixed;
   width: 250px;
   height: auto;
+  top: 600px;
+  right: 0;
 }
 
 #clock-9 {
   position: fixed;
   width: 250px;
   height: auto;
+  right: 200px;
 }
 
 #clock-10 {
   position: fixed;
   width: 250px;
   height: auto;
+  left: 200px;
 }
 
 #clock-11 {
   position: fixed;
   width: 250px;
   height: auto;
+  top: 20px;
+  right: 200px;
+  z-index: -2;
 }
 
 #clock-12 {
   position: fixed;
   width: 250px;
   height: auto;
+  top: 200px;
+  left: 400px;
 }
 
 #clock-13 {

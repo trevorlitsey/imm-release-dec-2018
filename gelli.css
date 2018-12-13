@@ -47,3 +47,12 @@ body {
   transform: rotate(1080deg);
   transition: ease-in 0s, ease-out 1s;
 }
+
+.gelli-container {
+  margin: auto;
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+}
