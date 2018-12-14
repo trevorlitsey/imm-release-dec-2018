@@ -1,69 +1,24 @@
-html {
-}
-
 body {
-  width: 100%;
-  background: linear-gradient(black, white);
-  );
+  background: #111;
+  color: white;
 }
 
-.jordan-text {
-  position: absolute;
+.text {
+  max-width: 600px;
+  padding: 0 20px;
+  margin: auto;
+  text-align: justify;
+}
+
+.subtitle {
   font-size: 20px;
-  width: 60%;
-  height: 100%;
-  top: 20%;
-  left: 20%;
 }
 
-#jordan-text-header {
-  text-align: center;
-  font-size: 50px;
-}
-
-#jordan-text-body {
-  	height: inherit;
-	background: inherit;
-	-webkit-background-clip: text;
-					background-clip: text;
-	color: transparent;
-
-	filter: invert(1) grayscale(1) contrast(9);
-  /* filter: invert(1) grayscale(1) contrast(9); */
-}
-
-#jordan-image-1 {
-  float: left;
-  width: 200px;
-  margin-left: 0px;
-  margin-right: 10px;
-  margin-top: 10px;
-
-  	filter: invert(1) grayscale(1) contrast(10);
-}
-
-#jordan-image-2 {
-  float: right;
-  width: 200px;
-  margin-left: 0px;
-  margin-right: 10px;
-  margin-top: 10px;
-  box-shadow: 0 0 10px #ffffff;
-}
-
-#jordan-image-3 {
-  float: right;
-  width: 200px;
-  margin-left: 0px;
-  margin-right: 10px;
-  margin-top: 10px;
-  box-shadow: 0 0 10px #ffffff;
+a {
+  color: inherit;
 }
 
 #logo {
-  position: fixed;
-  top: 10px;
-  left: 10px;
   width: 150px;
 }
 
@@ -71,9 +26,4 @@ body {
   cursor: default;
   transform: rotate(1080deg);
   transition: ease-in 0s, ease-out 1s;
-}
-
-#jordan-footer {
-  position: absolute;
-  bottom: 0;
 }
