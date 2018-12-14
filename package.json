@@ -4,9 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "parcel index.html",
-    "build": "parcel build *.html",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "browser-sync start --server --files *"
   },
   "repository": {
     "type": "git",
@@ -19,11 +17,8 @@
   },
   "homepage": "https://github.com/trevorlitsey/imm-release-dec-2018#readme",
   "devDependencies": {
-    "autoprefixer": "^9.4.2",
+    "browser-sync": "^2.26.3",
     "eslint": "^5.10.0",
-    "parcel-bundler": "^1.10.3",
-    "parcel-plugin-imagemin": "^2.1.1",
-    "postcss-modules": "^1.4.1",
     "prettier": "^1.15.3"
   },
   "eslintConfig": {
