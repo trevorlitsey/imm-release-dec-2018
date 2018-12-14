@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Dosis:500,600');
+@import url('https://fonts.googleapis.com/css?family=Dosis:400,500,600');
 
 body {
   min-height: 100vh;
@@ -9,6 +9,7 @@ body {
     rgba(255, 255, 0, 1) 0%,
     rgba(51, 153, 255, 1) 100%
   );
+  font-family: 'Dosis', sans-serif;
 }
 
 #chatroom {
