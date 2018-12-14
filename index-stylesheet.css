@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis:500,600');
+
 body {
   min-height: 100vh;
   background: rgb(255, 255, 0);
@@ -214,23 +216,22 @@ a:active {
 }
 
 .popup {
-  margin: 70px auto;
-  bottom: 10%;
+  margin: 10% auto;
   padding: 20px;
   background: rgb(255, 238, 0);
   border-radius: 5px;
   width: 80%;
-  height: 100%;
+  max-height: 80%;
   overflow: scroll;
   position: relative;
-  transition: all 5s ease-in-out;
 }
 
 .popup h2 {
   margin-top: 0;
   color: #333;
-  font-family: Tahoma, Arial, sans-serif;
+  font-family: 'Dosis', Tahoma, Arial, sans-serif;
 }
+
 .popup .close {
   position: absolute;
   top: 20px;
@@ -242,8 +243,10 @@ a:active {
   color: #333;
 }
 
-.popup .content {
-  max-height: 80%;
+.overlay {
+}
+
+.content {
   overflow: auto;
 }
 
