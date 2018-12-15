@@ -18,11 +18,27 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00fbff",endColorstr="#fffe00",GradientType=1);
 }
 
+.video {
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  z-index: 9999999;
+}
+
+.video iframe {
+  margin: auto;
+}
+
+img {
+  z-index: -1;
+}
+
 #logo {
   position: fixed;
   top: 10px;
   left: 10px;
   width: 150px;
+  z-index: 10;
 }
 
 #logo:hover {
