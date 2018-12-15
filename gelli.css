@@ -1,12 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Dosis:500,600");
 
 body {
-  background-color: #6db3f2;
-  background-image: url("images/beach-scene.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
+  background-color: #00ff40;
+
   font-family: "Dosis", Tahoma, Arial, sans-serif;
 }
 
