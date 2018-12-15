@@ -10,3 +10,11 @@
   transform: rotate(1080deg);
   transition: ease-in 0s, ease-out 1s;
 }
+
+.video {
+  padding: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}

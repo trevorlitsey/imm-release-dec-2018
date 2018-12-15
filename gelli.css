@@ -1,13 +1,13 @@
-@import url('https://fonts.googleapis.com/css?family=Dosis:500,600');
+@import url("https://fonts.googleapis.com/css?family=Dosis:500,600");
 
 body {
   background-color: #6db3f2;
-  background-image: url('images/beach-scene.png');
+  background-image: url("images/beach-scene.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
-  font-family: 'Dosis', Tahoma, Arial, sans-serif;
+  font-family: "Dosis", Tahoma, Arial, sans-serif;
 }
 
 .byline {
@@ -44,7 +44,7 @@ body {
   height: auto;
 }
 
-#logo {
+#logog {
   position: fixed;
   top: 10px;
   left: 10px;
