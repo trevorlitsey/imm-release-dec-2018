@@ -1,51 +1,44 @@
-@import url("https://fonts.googleapis.com/css?family=Dosis:500,600");
-
 body {
-  background-color: #00ff40;
-
-  font-family: "Dosis", Tahoma, Arial, sans-serif;
+  background: rgb(0, 251, 255);
+  background: -moz-radial-gradient(
+    circle,
+    rgba(0, 251, 255, 0.614781746031746) 0%,
+    rgba(255, 254, 0, 1) 100%
+  );
+  background: -webkit-radial-gradient(
+    circle,
+    rgba(0, 251, 255, 0.614781746031746) 0%,
+    rgba(255, 254, 0, 1) 100%
+  );
+  background: radial-gradient(
+    circle,
+    rgba(0, 251, 255, 0.614781746031746) 0%,
+    rgba(255, 254, 0, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00fbff",endColorstr="#fffe00",GradientType=1);
 }
 
-.byline {
-  text-align: center;
+.video {
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  z-index: 9999999;
 }
 
-#island-title {
-  display: block;
-  margin: 80px auto 0;
-  width: 100%;
-  max-width: 600px;
+.video iframe {
+  margin: auto;
 }
 
-#corner-palm-1 {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 300px;
-  height: auto;
+img {
   z-index: -1;
 }
 
-#corner-palm-2 {
-  position: fixed;
-  top: 0;
-  right: 0;
-  width: 300px;
-  height: auto;
-  z-index: -1;
-}
-
-.gelli-meme {
-  width: 450px;
-  height: auto;
-}
-
-#logog {
+#logo {
   position: fixed;
   top: 10px;
-  left: 10px;
+  left: 5px;
   width: 150px;
-  z-index: 2;
+  z-index: 10;
 }
 
 #logo:hover {
@@ -54,16 +47,151 @@ body {
   transition: ease-in 0s, ease-out 1s;
 }
 
-.gelli-container {
+#clee-header {
+  display: block;
   margin: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  max-width: 600px;
-  padding: 30px;
+  width: 300px;
+  top: 0;
 }
 
-.gelli-container img {
-  margin-top: 20px;
-  max-width: 90vw;
+#clock-1 {
+  position: fixed;
+  width: 250px;
+  height: auto;
+  top: -100px;
+  left: -100px;
+  z-index: -1;
+}
+
+#clock-2 {
+  position: fixed;
+  width: 200px;
+  height: auto;
+  top: 200px;
+}
+
+#clock-3 {
+  position: fixed;
+  width: 300px;
+  height: auto;
+  top: 400px;
+  right: -50px;
+}
+
+#clock-4 {
+  position: fixed;
+  width: 150px;
+  height: auto;
+  top: 0px;
+  left: 100px;
+  z-index: -1;
+}
+
+#clock-5 {
+  position: fixed;
+  width: 250px;
+  height: auto;
+  top: 500px;
+  left: 20px;
+}
+
+#clock-6 {
+  position: fixed;
+  width: 250px;
+  height: auto;
+  top: -75px;
+  right: -75px;
+}
+
+#clock-7 {
+  position: fixed;
+  width: 250px;
+  height: auto;
+  top: 200px;
+  right: 20px;
+  z-index: -2;
+}
+
+#clock-8 {
+  position: fixed;
+  width: 250px;
+  height: auto;
+  top: 600px;
+  right: 0;
+}
+
+#clock-9 {
+  position: fixed;
+  width: 250px;
+  height: auto;
+  right: 200px;
+}
+
+#clock-10 {
+  position: fixed;
+  width: 250px;
+  height: auto;
+  left: 200px;
+}
+
+#clock-11 {
+  position: fixed;
+  width: 250px;
+  height: auto;
+  top: 0px;
+  right: 200px;
+  z-index: -2;
+}
+
+#clock-12 {
+  position: fixed;
+  width: 250px;
+  height: auto;
+  top: 200px;
+  left: 400px;
+}
+
+#clock-13 {
+  position: fixed;
+  width: 250px;
+  height: auto;
+  left: 200px;
+}
+
+#clock-14 {
+  position: fixed;
+  width: 250px;
+  height: auto;
+}
+
+#clock-15 {
+  position: fixed;
+  width: 250px;
+  height: auto;
+}
+
+#clock-16 {
+  position: fixed;
+  width: 250px;
+  height: auto;
+}
+
+@-webkit-keyframes rotating /* Safari and Chrome */ {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes rotating {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.rotating {
+  animation: rotating 4s linear infinite;
 }
