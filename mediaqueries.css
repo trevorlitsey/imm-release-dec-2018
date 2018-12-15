@@ -7,11 +7,106 @@
 
   #index-title {
     position: fixed;
-    right: -50px;
-    height: 180px;
+    right: -35px;
+    height: 150px;
   }
 
   #jordan-headshot {
     height: 400px;
+  }
+
+  #slime {
+    display: none;
+  }
+
+  img#clock-1 {
+    width: 100px;
+  }
+
+  img#clock-2 {
+    width: 100px;
+  }
+
+  img#clock-3 {
+    width: 100px;
+    z-index: -2;
+  }
+
+  img#clock-4 {
+    width: 100px;
+  }
+
+  img#clock-5 {
+    width: 100px;
+  }
+
+  img#clock-6 {
+    width: 100px;
+  }
+
+  img#clock-7 {
+    width: 100px;
+  }
+
+  img#clock-8 {
+    width: 100px;
+  }
+  img#clock-9 {
+    width: 100px;
+  }
+
+  img#clock-10 {
+    width: 100px;
+  }
+
+  img#clock-11 {
+    width: 100px;
+  }
+
+  img#clock-12 {
+    width: 100px;
+  }
+  img#clock-13 {
+    width: 100px;
+  }
+
+  img#clock-14 {
+    width: 100px;
+  }
+
+  img#clock-15 {
+    width: 100px;
+  }
+
+  img#clock-16 {
+    width: 100px;
+  }
+
+  #jordan-headshot {
+    height: 250px;
+  }
+
+  #palm-tree {
+    width: 350px;
+    top: 40%;
+  }
+
+  #index-logo {
+    width: 150px;
+    bottom: 75px;
+    right: 50px;
+  }
+
+  img#logo {
+    width: 75px;
+    top: 89%;
+    bottom: 0;
+  }
+}
+
+@media screen and (min-width: 560px) {
+  #clee-insta {
+    bottom: 0;
+    left: 0;
   }
 }
