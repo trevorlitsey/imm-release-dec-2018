@@ -18,6 +18,18 @@
       integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
       crossorigin="anonymous"
     ></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-114939328-3"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', 'UA-114939328-3');
+    </script>
   </head>
 
   <body>
@@ -25,23 +37,29 @@
     <video autoplay muted loop id="myVideo">
       <source src="images/immBackground.mp4" type="video/mp4" />
     </video>
-        <div class="video">
-<iframe src="https://player.vimeo.com/video/306524705?title=0&byline=0&portrait=0" width="900" height="600" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
-        </div>
-
+    <div class="video">
+      <iframe
+        src="https://player.vimeo.com/video/306524705?title=0&byline=0&portrait=0"
+        width="900"
+        height="600"
+        frameborder="0"
+        webkitallowfullscreen
+        mozallowfullscreen
+        allowfullscreen
+      ></iframe>
+    </div>
 
     <script>
-      var video = document.getElementById("myVideo");
-      var btn = document.getElementById("myBtn");
+      var video = document.getElementById('myVideo');
+      var btn = document.getElementById('myBtn');
 
       function myFunction() {
         if (video.paused) {
           video.play();
-          btn.innerHTML = "Pause";
+          btn.innerHTML = 'Pause';
         } else {
           video.pause();
-          btn.innerHTML = "Play";
+          btn.innerHTML = 'Play';
         }
       }
     </script>
