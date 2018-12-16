@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis:500,600');
+
 body {
+  font-family: 'Dosis', Tahoma, Arial, sans-serif;
   background: rgb(0, 251, 255);
   background: -moz-radial-gradient(
     circle,
@@ -19,7 +22,9 @@ body {
 }
 
 .video {
-  margin: 50px auto;
+  margin: 100px auto;
+  max-width: 500px;
+  text-align: center;
   display: flex;
   justify-content: center;
   z-index: 9999999;
