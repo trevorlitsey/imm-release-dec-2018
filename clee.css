@@ -22,7 +22,7 @@ body {
 }
 
 .video {
-  margin: 100px auto;
+  margin: 100px auto 20px;
   max-width: 500px;
   text-align: center;
   display: flex;
@@ -36,6 +36,12 @@ body {
 
 img {
   z-index: -1;
+}
+
+.info {
+  margin: auto;
+  max-width: 500px;
+  text-align: center;
 }
 
 #logo {

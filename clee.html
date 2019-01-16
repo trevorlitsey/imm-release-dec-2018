@@ -34,11 +34,12 @@
 
     <img src="images/clee-clock.png" id="clee-header" />
 
-        <div class="video">
-        <h1>
-          Clee’s 24-hour livestream was broadcast on December 15th, 2018 to December 16th, 2018. A record of the stream will be posted here shortly. Thank you for your patience.
-        </h1>
-        </div>
+      <div class="video">
+        <iframe width="560" height="315" src="" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        </iframe>
+      </div>
+      <h1 class="info">Clee’s 24-hour livestream was broadcast on December 15th, 2018 to December 16th, 2018.</h1>
         
     <img src="images/clock-1.png" id="clock-1" class="rotating" />
     <img src="images/clock-2.png" id="clock-2" class="rotating" />
@@ -63,5 +64,37 @@
 
       </div>
       </div>
+
+      <script>
+
+        const iFrame = document.querySelector('iframe');
+
+        const baseUrl = 'https://www.youtube.com/embed/'
+        const vids = [
+          '_VdngqneYBU',
+          'Z777uCy25qs',
+          'eBVhYLa5ag8',
+          'dsS_cleaRQU',
+          'kUDSAUQPMqg',
+          'isxRdsbHi74',
+          'vkWAU6IKfXM',
+          'lwepP40KtjQ',
+          '1EmlmLEwxA4',
+          '_pvsRyzUpt0',
+          'xRh1AQm7xiA',
+          '9s9LjwKGZg8',
+          'wQAOieFYKZI',
+        ];
+
+        function initPlayer() {
+          const vid = vids[Math.floor(Math.random() * vids.length)];
+          iFrame.src = baseUrl + vid;
+          return true;
+        }
+
+        window.addEventListener('load', initPlayer)
+
+
+      </script>
   </body>
 </html>
